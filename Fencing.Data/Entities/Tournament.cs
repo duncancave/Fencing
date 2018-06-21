@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fencing.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,6 +11,6 @@ namespace Fencing.Data.Entities
 
         public string Name { get; set; }
 
-        public Guid WeaponTypeId { get; set; }
+        public WeaponType WeaponType { get; set; }
     }
 }
