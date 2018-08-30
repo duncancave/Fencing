@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fencing.Test", "Fencing.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fencing.Service", "Fencing.Service\Fencing.Service.csproj", "{95C20726-9F7E-4F0F-A1CD-5C2A7C4D56F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fencing.Core", "Fencing.Core\Fencing.Core.csproj", "{B94DAA7D-2071-467E-BDE3-ED66A910C44C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fencing.Core", "Fencing.Core\Fencing.Core.csproj", "{B94DAA7D-2071-467E-BDE3-ED66A910C44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fencing.Web", "Fencing.Web\Fencing.Web.csproj", "{B4EA40B6-A159-4D8A-B449-138AD8DA38B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B94DAA7D-2071-467E-BDE3-ED66A910C44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94DAA7D-2071-467E-BDE3-ED66A910C44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94DAA7D-2071-467E-BDE3-ED66A910C44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EA40B6-A159-4D8A-B449-138AD8DA38B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EA40B6-A159-4D8A-B449-138AD8DA38B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EA40B6-A159-4D8A-B449-138AD8DA38B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EA40B6-A159-4D8A-B449-138AD8DA38B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
